@@ -1,0 +1,69 @@
+//This program is to describe the different types of plants - This instance roses
+// This program has been created by Mya Federico  
+// Date: 23/11/2017
+
+#include <iostream>
+#include <string>
+
+
+//This is the base class plant.
+class plant
+
+//The information below belongs to class plant and describes a plant.
+{
+   private: // This below keeps the colour of the plant private and cannot be seen or changed.
+  
+  std::string m_colour; // This attribute describes what the colour of the plant will be.
+ 
+  std::string getcolour(colour).
+ 
+  m_colour=colour. //The atrribute equals the colour.
+  
+  public: //This below allows the colour of the plant to become public and can bee seen or changed by a user as it is printed.
+  
+  void show() { //cancels out anything being returned
+ 
+  std::cout<<"The plants colour is"<<m_colour; //Prints the plant colour.
+ 
+  }
+
+  
+};
+
+
+class rose : private plant //class rose inherits from class plant.
+
+{
+   public: // The attribute below is public and can be seen or changed.
+  
+  std::string stem_green;
+  
+  void show() //cancels out anything being returned
+ 
+  std::cout<<"The plant has a"<<stem_green; //Prints out the colour of the stem which is green.
+
+  
+};
+
+int main() //Code begins.
+
+}
+  rose r; //r becomes the object
+ 
+  r.getcolour(red). //the colour of the rose is red.
+ 
+  std::cout<<r.m_colour; //prints out the colour red
+ 
+  std::cout<<r.stem_green; //prints out the colour of the stem which is green.
+
+}
+
+  rose r; //r becomes the object
+  
+  std::string rosecolour;
+  
+  std::cin>>rosecolour //user can input the colour of the rose they would like
+  
+  r.getcolour(rosecolour). //the colour then becomes what the user has input and go back to print the colour.
+
+};
